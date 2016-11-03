@@ -1,5 +1,5 @@
-import os, info, time, sys
-
+import os, time, sys
+import secrets.info as info
 def log (message, speak = True):
     if speak:
         os.system('say '+ message )
